@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div
+    {
+        
+        width:50%;
+        /* height: 30vh; */
+        /* background-color: red; */
+        /* opacity: 0.1; */
+    }
+    /* div::after */
+    {
+        content: "";
+        background-color: red;
+        width: 50%;
+        height: 30vh;
+        display: block;
+        position: absolute;
+        z-index: -999;
+        opacity: 0.5;
+    }
+input::placeholder
+{
+    color:red;
+}
+::selection
+{
+    color:yellow;
+}
+input
+{
+    border-radius: 20px;
+    
+}
+</style>
+</head>
+<body>
+    <input type="text" placeholder="abc">
+    <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius iure aut veritatis eligendi deleniti eaque unde? Perspiciatis cum excepturi earum perferendis iste vel incidunt tempore libero quo. Iure, id!
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veniam alias, excepturi voluptatibus magnam saepe dignissimos aut quod est laboriosam quae beatae doloribus atque recusandae quo nobis eos ipsum itaque.
+    </p>
+</body>
+</html>
